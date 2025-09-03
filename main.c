@@ -44,9 +44,13 @@ int main()
       else  {
           printf(" Echec.\n",Moyenne) ;
            }
+if (Moyenne >= 50){
+    printf("réussi.\n", Moyenne);
+}
 
-
-
+else ({
+    printf("echoe.\n", Moyenne);
+}
 
     return 0;
 }
